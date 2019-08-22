@@ -40,7 +40,7 @@ function TodoList() {
         <div className="list">
         {
           exampleList.map((item, index) =>
-            <ListItem key={item} item={item} index={index} handleRemoveItem={handleRemoveItem} />
+            <ListItem key={index} item={item} index={index} handleRemoveItem={handleRemoveItem} />
          )
         }
         </div>
